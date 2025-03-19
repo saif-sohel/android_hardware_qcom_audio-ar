@@ -43,6 +43,7 @@ LOCAL_SHARED_LIBRARIES := \
     libar-pal
 
 LOCAL_C_INCLUDES := \
+    $(call project-path-for,qcom-audio)/pal
     $(LOCAL_PATH)/inc \
     external/expat/lib \
     system/media/audio_utils/include \
@@ -83,6 +84,7 @@ LOCAL_SHARED_LIBRARIES := \
     libar-pal
 
 LOCAL_C_INCLUDES := \
+    $(call project-path-for,qcom-audio)/pal
     $(LOCAL_PATH)/inc \
     external/expat/lib \
     system/media/audio_utils/include \
